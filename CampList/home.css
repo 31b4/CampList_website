@@ -1,0 +1,52 @@
+body{
+    background-image: url(b.gif);
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1{
+    color:whitesmoke;
+    text-align: center;
+    font-size: xx-large;
+	width: 100%;
+    
+    
+    padding-top: 1%;
+}
+.ooo{
+
+    margin-right: 22px;
+    
+}
+footer {
+	background-color: #0005;
+	padding: 40px;
+	text-align: center;
+	font-weight: bold;
+	color: white;	
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+.logo img{
+	width: 20%;
+	border: 30px;
+    display: block;     
+    margin-left: auto;     
+    margin-right: auto;
+    margin-top: 3%;
+    float: top;
+    border-radius: 30px;
+}
+li{
+    list-style-type:none;
+    color: whitesmoke;
+    text-align: justify;
+    font-size: x-large;
+	text-align: center;
+	width: 100%;
+    
+    
+}
