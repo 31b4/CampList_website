@@ -9,7 +9,6 @@ body{
 h1{
     color:whitesmoke;
     text-align: center;
-
 	width: 100%;
     font-style: oblique;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -31,6 +30,7 @@ footer {
     left: 0;
     bottom: 0;
 }
+
 .logo img{
 	width: 20%;
 	border: 30px;
@@ -41,6 +41,7 @@ footer {
     float: top;
     border-radius: 15px;
 }
+
 li{
     list-style-type:none;
     color: whitesmoke;
@@ -51,58 +52,64 @@ li{
     
     
 }
+
 div.scrollmenu {
     background-color: #2f2f2f;
     overflow: auto;
     white-space: nowrap;
     display: block;
     text-align: center;
+    position:relative;
     
-  }
-  
-  div.scrollmenu a {
+}
+
+div.scrollmenu a {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 15px;
     text-decoration: none;
-  }
-  
-     div.scrollmenu a:hover {
-    background-color: #777;
-  }
+}
 
-  header{
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+
+header{
     color: red;
     height:2px;
     background-color:red;
     position:absolute;
     width: 100%;
     position: fixed;
-  }
+}
 
 .red{
     color: red;
     text-align: center;
 }
+
 .blue{
     text-align: center;
     color: blue;
 }
+
 .info{
     text-align: center;
     color: whitesmoke;
 }
+
 .info a:hover{
     color: gray;
 }
 
 .center{
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
 }
+
 .dclink{
     color: whitesmoke;
 }
@@ -112,5 +119,4 @@ div.scrollmenu {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
