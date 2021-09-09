@@ -1,3 +1,3 @@
 # CampList_website
-Simple storage website
-Not official
+Simple website about a list
+Not official 
