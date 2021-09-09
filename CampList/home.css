@@ -23,23 +23,27 @@ footer {
 	text-align: center;
 	font-weight: bold;
 	color: white;	
-    position:absolute;
     bottom:0;
     width: 100%;
     position:fixed;
     left: 0;
     bottom: 0;
 }
-
-.logo img{
-	width: 20%;
-	border: 30px;
-    display: block;     
-    margin-left: auto;     
+.listFooter {
+    position:relative;
+}
+#logo {
+    margin-left: auto;
     margin-right: auto;
-    margin-top: 3%;
-    float: top;
-    border-radius: 15px;
+}
+#logo img{
+	
+    height: 40%;
+    display: block;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
 
 li{
@@ -48,9 +52,7 @@ li{
     text-align: justify;
     font-size: x-large;
 	text-align: center;
-	width: 100%;
-    
-    
+	width: 100%; 
 }
 
 div.scrollmenu {
@@ -60,7 +62,6 @@ div.scrollmenu {
     display: block;
     text-align: center;
     position:relative;
-    
 }
 
 div.scrollmenu a {
@@ -81,7 +82,7 @@ header{
     background-color:red;
     position:absolute;
     width: 100%;
-    position: fixed;
+    position:absolute;
 }
 
 .red{
@@ -119,4 +120,21 @@ header{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
+    
+}
+
+#homeinfo{
+    color:whitesmoke;
+    text-align: center;
+	width: 100%;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: initial;
+    margin-top: 2%;
+}
+
+.all{
+    font-size: large; 
 }
