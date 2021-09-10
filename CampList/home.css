@@ -77,37 +77,30 @@ header{
     width: 100%;
     position:absolute;
 }
-
 .red{
     color: red;
     text-align: center;
 }
-
 .blue{
     text-align: center;
     color: blue;
 }
-
 .info{
     text-align: center;
     color: whitesmoke;
 }
-
 .info a:hover{
     color: gray;
 }
-
 .center{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 15%;
 }
-
 .dclink{
     color: whitesmoke;
 }
-
 .video{
 
     display: block;
@@ -116,7 +109,6 @@ header{
     
     
 }
-
 #homeinfo{
     color:whitesmoke;
     text-align: center;
@@ -127,7 +119,6 @@ header{
     font-weight: initial;
     margin-top: 2%;
 }
-
 .all{
     font-size: large; 
 }
