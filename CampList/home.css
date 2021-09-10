@@ -5,9 +5,8 @@ body{
     background-attachment: fixed;
     background-position: center;
 }
-
 h1{
-    color:whitesmoke;
+     color:whitesmoke;
     text-align: center;
 	width: 100%;
     font-style: oblique;
@@ -16,7 +15,6 @@ h1{
     font-weight: initial;
     padding-top: 2%;
 }
-
 footer {
 	background-color: #0005;
 	padding: 7px;
@@ -45,7 +43,6 @@ footer {
     margin-right: auto;
     position: relative;
 }
-
 li{
     list-style-type:none;
     color: whitesmoke;
@@ -54,7 +51,6 @@ li{
 	text-align: center;
 	width: 100%; 
 }
-
 div.scrollmenu {
     background-color: #2f2f2f;
     overflow: auto;
@@ -63,7 +59,6 @@ div.scrollmenu {
     text-align: center;
     position:relative;
 }
-
 div.scrollmenu a {
     display: inline-block;
     color: white;
@@ -71,11 +66,9 @@ div.scrollmenu a {
     padding: 15px;
     text-decoration: none;
 }
-
 div.scrollmenu a:hover {
     background-color: #777;
 }
-
 header{
     color: red;
     height:2px;
