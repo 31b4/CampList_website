@@ -2,7 +2,7 @@ console.log("ScareCrow 30 eves hajo utca 1-3 volvo gang™");
 read();
 async function read() {
     console.log("On belepett.");
-    const value = await fetch('list.txt').then(response => response.text())
+    const value = await fetch('storage/camplist.txt').then(response => response.text())
     let array = value.split(/( \(|\)|,\n)/);
     removeItemAll(array," (");
     removeItemAll(array,")");
