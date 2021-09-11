@@ -22,26 +22,25 @@ footer {
 	font-weight: bold;
 	color: white;	
     	bottom:0;
-    width: 100%;
-    position:fixed;
-    left: 0;
-    bottom: 0;
+	    width: 100%;
+	    position:fixed;
+	    left: 0;
+	    bottom: 0;
 }
 .listFooter {
-    position:relative;
+    	position:relative;
 }
 #logo {
-    margin-left: auto;
-    margin-right: auto;
+	    margin-left: auto;
+	    margin-right: auto;
 }
 #logo img{
-	
-    height: 40%;
-    display: block;
-    margin-bottom: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+	    height: 40%;
+	    display: block;
+	    margin-bottom: 10%;
+	    margin-left: auto;
+	    margin-right: auto;
+	    position: relative;
 }
 li{
     list-style-type:none;
